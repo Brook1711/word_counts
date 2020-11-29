@@ -24,7 +24,9 @@ hbase版本：1.4.13
 
 ### 2.1 上传文件到hadoop
 
-启动，（`~/hadoop/hadoop-2.7.1/sbin` 目录下）
+~ 代表计算机主文件夹 /home/brook1711
+
+启动hadoop，（`~/hadoop/hadoop-2.7.1/sbin` 目录下）
 
 ```bash
 ./start-all.sh
@@ -38,7 +40,15 @@ hadoop fs -put /home/brook1711/demo/big_data_result/big_data/zmy_pyspark/txt_hdf
 
 ![2020-11-29 10-53-00 的屏幕截图](word_counts.assets/2020-11-29 10-53-00 的屏幕截图.png)
 
-在web端打开hadoop管理页面可以看到文件已经被put上去
+在web端打开hadoop管理页面
+
+0.0.0.0:50070
+
+点击‘utilities/browse the file system’
+
+![image-20201129133640411](word_counts.assets/image-20201129133640411.png)
+
+可以看到文件已经被put上去
 
 ![2020-11-29 10-56-28 的屏幕截图](word_counts.assets/2020-11-29 10-56-28 的屏幕截图.png)
 
@@ -49,6 +59,8 @@ hadoop fs -put /home/brook1711/demo/big_data_result/big_data/zmy_pyspark/txt_hdf
 在anaconda中启动pyspark
 
 ![image-20201129130031896](word_counts.assets/image-20201129130031896.png)
+
+输入pyspark，启动pyspark
 
 ![image-20201129130133484](word_counts.assets/image-20201129130133484.png)
 
