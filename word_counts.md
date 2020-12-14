@@ -31,7 +31,7 @@ hbase版本：1.4.13
 启动hadoop，（`~/hadoop/hadoop-2.7.1/sbin` 目录下）
 
 ```bash
-./start-all.sh
+./start-all.cmd
 ```
 
 命令：
